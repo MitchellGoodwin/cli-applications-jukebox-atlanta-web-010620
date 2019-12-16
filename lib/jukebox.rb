@@ -45,14 +45,14 @@ def run(songs)
   while i = 0
     puts "Please enter a command:"
     input = gets.strip
-    if input == help
+    if input == "help"
       help 
-    elsif input == exit
+    elsif input == "exit"
       exit_jukebox
       i += 1 
-    elsif input == play 
+    elsif input == "play" 
       play(songs)
-    elsif input == list 
+    elsif input == "list" 
       list(songs)
     end
   end
