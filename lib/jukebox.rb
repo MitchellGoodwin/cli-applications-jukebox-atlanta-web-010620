@@ -41,5 +41,8 @@ def exit_jukebox
 end
 
 def run 
-  
+  i = 0 
+  while i = 0
+    puts ""
+  end
 end
