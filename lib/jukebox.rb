@@ -43,6 +43,8 @@ end
 def run 
   i = 0 
   while i = 0
-    puts ""
+    puts "Please enter a command:"
+    input = gets.strip
+    
   end
 end
